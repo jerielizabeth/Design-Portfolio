@@ -1,0 +1,237 @@
+/************
+Page Styles
+************/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}	
+
+body {
+	margin: 0;
+	background: #FFF;
+	font-family: verdana, geneva, sans-serif;
+	font-size: .87em;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+	background-color: #E1E3D8;
+}
+
+p {
+	line-height: 1.5em;
+	color: #222;
+	padding: 10px;
+}
+
+
+/************
+Header
+************/
+
+#header {
+	font-style: italic;
+	width: 960px;
+	float: left;
+	margin: 0;
+	font-family: Georgia, serif;
+	background: #BBC3B9;
+}
+
+#subHead {
+	width: 900px;
+	margin: 0 30px;
+	padding: 20px 0;
+	float: left;
+	background: #62795B;
+}
+
+#subHead h1 {
+	font-size: 3em;
+	text-align: left;
+	margin: 0;
+	padding: 20px;
+}
+
+#subHead h2 {
+	margin: 0;
+	color: #01435C;
+	font-size: 1.2em;
+	text-align: right;
+	padding-top: 20px;
+	padding-right: 20px;
+}
+/************
+background
+************/
+#background {
+	width: 960px;
+	overflow: auto;
+	color: #C2C9C0;
+	clear: both;
+}
+
+/************
+Navigation
+************/
+
+#navPrime {
+	width: 900px;
+	margin: 5px 30px 5px 30px;
+	float: left;
+	list-style: none;
+	padding: 0;
+}
+
+#navPrime a:link {
+	color: #C2C9C0;
+}
+
+#navPrime a:visited {
+	color: #E1E3D8;
+}
+
+#navPrime a:hover {
+	text-decoration: none;
+}
+
+#navPrime a:active {
+	color: #E1E3D8;
+}
+
+.link {
+	float: left;
+	width: 174px;
+	margin: 0 2px 0 0;
+	padding: 1px;
+	background-color: #52646A;
+	list-style: none;
+	border: 1px solid #333;
+	text-align: center;
+}
+.linkFinal {
+	float: right;
+	width: 174px;
+	margin: 0px;
+	padding: 1px;
+	background-color: #52646A;
+	list-style: none;
+	border: 1px solid #333;
+	text-align: center;
+}
+
+/************
+Content
+************/
+h3 {
+	color: #01435C;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+#content {
+	float: left;
+	width: 600px;
+	margin: 0 5px 0 30px;
+	background: #FFF;
+	padding: 20px;
+	border: 1px solid;
+}
+
+.pic {
+	margin-left: 10px;
+	float: right;
+}
+#content h4{
+	font-style:italic;
+	font-weight: bold;
+	font-size:1em;
+}
+
+/************
+Sidebar
+************/
+
+#sidebar {
+	float: right;
+	width: 225px;
+	margin: 0 30px 0 0;
+	background: #FFF;
+	padding: 10px; 
+	border: 2px solid #CCC;
+}
+
+#sidebar h3 {
+	margin: 0;
+}
+
+#sidebar .section {
+	border-top: 2px dashed #CCC;
+	padding-top: 10px;
+}
+
+#sidebar .contact {
+	list-style: none;
+	line-height: 1.7em;
+	color: #222;
+	padding: 5px 0 0 0;
+}	
+
+
+/************
+Footer
+************/
+#footer {
+	width: 900px;
+	margin: 5px 30px 10px 30px;
+	float: left;
+	padding: 10px 0;
+	background-color: #52646A;
+}
+
+#copyright {
+	float: left;
+	width: 400px;
+	padding: 10px 10px;
+}
+#validation {
+	width: 480px;
+	float: right;
+}
+#html {
+	float: right;
+
+}
+
+#CSS {
+	float: right;	
+}
+
+
+
+
+
+
+
+
+
+

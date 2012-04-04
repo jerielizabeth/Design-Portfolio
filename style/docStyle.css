@@ -1,0 +1,273 @@
+/* CSS File - Individual Document Pages*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	text-decoration:none;
+}
+
+/* End Browser Reset */
+
+/* A font by Barry Schwartz -> www.theleagueofmoveabletype.com/fanwood */
+@font-face {
+  font-family: "fanwood";
+  src: url("fonts/fanwood_text-webfont.eot");
+  src: local("☺"),
+    url("fonts/fanwood_text-webfont.woff") format("woff"),
+    url("fonts/Fanwood_Text.otf") format("opentype"),
+    url("fonts/fanwood_text-webfont.svg#FanwoodTextRegular") format("svg");
+}
+@font-face {
+  font-family: "fanwoodItalic";
+  src: url("fonts/fanwood_text_italic-webfont.eot");
+  src: local("☺"),
+    url("fonts/fanwood_text_italic-webfont.woff") format("woff"),
+    url("fonts/Fanwood_Text_Italic.otf") format("opentype"),
+    url("fonts/fanwood_text_italic-webfont.svg#FanwoodTextItalic") format("svg");
+}
+
+/* A font by Barry Schwartz -> http://www.theleagueofmoveabletype.com/sorts-mill-goudy */
+@font-face {
+  font-family: "Goudy";
+  src: url("fonts/GoudyStM-webfont.eot");
+  src: local("☺"),
+    url("fonts/GoudyStM-webfont.woff") format("woff"),
+    url("fonts/OFLGoudyStM.otf") format("opentype"),
+    url("fonts/GoudyStM-webfont.svg#Goudy") format("svg");
+}
+@font-face {
+  font-family: "GoudyItalic";
+  src: url("fonts/GoudyStM-Italic-webfont.eot");
+  src: local("☺"),
+    url("fonts/GoudyStM-Italic-webfont.woff") format("woff"),
+    url("fonts/OFLGoudyStM-Italic.otf") format("opentype"),
+    url("fonts/GoudyStM-Italic-webfont.svg#GoudyItalic") format("svg");	
+}
+
+/* End Fonts */
+body{
+	font-family: Verdana, Arial, sans-serif;
+	text-align: center;
+	font-size: 1.1em;
+	background-color: #99989F;
+	background-image: url("../images/pcBackground.png");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment:fixed;
+	width: 100%;
+	height: 100%;
+}
+	
+#wrapper{
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	height: auto;
+	text-align: left;
+	font-size: .83em;
+	color: #222;
+	background: #FFFEFB;	
+}
+	
+/* Header */
+	 
+#header h1{
+	padding: 30px 0 0 0;
+	font-family:"great-primer", serif;
+	font-size: 4em;
+	font-style:italic;
+	text-align: center;
+}
+#header h3{
+	padding: 0 0 30px 0;
+	font-family:"great-primer", serif;
+	font-size: 1.5em;
+	text-align:center;
+}
+
+/* Navigation */
+
+#nav ul{
+	list-style-type:none;
+	margin: 0 0 0 10px;
+}
+#nav li{
+	padding:0 5px 10px 5px;
+	float: left;
+	
+}
+#nav li a{
+	font-family:"Goudy", Georgia, serif;
+	padding:10px;
+	display:block;
+	color:#FFF;
+	background-color:#351820;
+	width:120px;
+	height: 30px;
+	text-align:center;
+	border-style:ridge;
+	border-width: 3px;
+	border-color: #221227;
+}
+#nav li a:link{
+	text-decoration:none;
+}
+#nav li a:visited{
+	background-color: #9A5A6B;
+}
+#nav li a:hover{
+	background-color:#9A6B78; 
+}
+#nav li a:active{
+	background-color:#23080F; 
+}
+
+	
+/* Content */
+#contentWrapper{
+	overflow:auto;
+	width:100%;
+}
+	
+/* Sidebar */
+#sidebar{
+	font-family:"Goudy", Georgia, serif;
+	text-align:right;
+	width:240px;
+	height:auto;
+	float:left;
+	padding:50px 25px;
+}
+#sidebar h1{
+	font-family:"Goudy", Georgia, serif;
+	font-style: italic;
+	font-size: 2em;
+}
+#sidebar h3{
+	padding: 10px 0;
+	font-family:"Goudy", Georgia, serif;
+	font-size: 1.5em;
+}
+		
+#sidebar h4{
+	font-family:"Goudy", Georgia, serif;
+	font-size: 1em;
+}
+#sidebar img{
+	float: left;
+	margin: 0 5px 0 0;
+}
+		
+#sidebar ul{
+	padding:0;
+	list-style-type:none;
+}
+
+#sidebar a{
+	font-family: "Fanwood", Georgia, serif;
+	font-size:1.2em;
+	color:#351820;
+	text-decoration:none;
+}
+
+/* Content */
+
+#content{
+	width: 620px;
+	float:left;
+	height: auto;
+	padding:50px 15px 0 15px;
+}
+#content p {
+	font-family: "Fanwood", Georgia, serif;
+	font-size: 1.3em;
+	line-height: 2em;
+	padding: 10px 20px;	
+}
+
+#content .pullquote{
+	width:200px;
+	float: left;
+	font-family: "Goudy", Georgia, serif;
+	font-style: Italic;
+	margin: 0 5px 0 10px;	
+	border-right:solid;
+	border-width:1px;
+	color: #351820;
+}
+#content img{
+	float: right;
+	padding: 20px 0 0 0;
+}
+#content img.image2{
+	float: left;
+	padding: 0 5px 5px 0;
+}
+
+#content h2{
+	font-family: "Fanwood", Georgia, serif;
+	font-effect: italic;
+	font-size: 2em;
+	text-align: center;
+}
+#content blockquote{
+	font-family: "Goudy", Georgia, serif;
+	font-effect: italic;
+	padding: 5px 10px 0 60px;
+	font-style: italic;
+	line-height: 1.2em;
+	font-size: 1.3em;
+}
+#content p a{
+	font-family: "Fanwood", Georgia, serif;
+	color:#351820;
+	text-decoration:none;
+}
+#content p.top {
+	text-align: right;
+}
+	
+/* Footer */
+#footer{
+	width:960px;
+	float:left;
+	background-color:#FFFEFB; 
+}
+#footer ul{
+	width:960px;
+	float:left;
+	list-style-type:none;
+	background-color:#351820;
+	padding:15px 0;
+}
+#footer li a{
+	font-family: "Goudy", Georgia, serif;
+	float:left;
+	display:block;
+	color:#FFF;
+	width:120px;
+	padding:0 20px 5px 20px;
+	text-align:center;
+}

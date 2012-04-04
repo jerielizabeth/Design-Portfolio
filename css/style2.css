@@ -1,0 +1,331 @@
+/*** CSS File ***/
+
+/* Browser Reset */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*** Font Information ***/
+
+/*** Universal ***/
+body{
+	font-family: Georgia, serif;
+	font-size:.9em;
+	text-align: left;
+	color: #444;
+	width: 100%;
+	height: 100%;
+
+}
+#wrapper{
+	width:960px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	}
+
+/*** Header ***/
+
+#header h1{
+	width: 960px;
+	float:left;
+	padding:10px 25px 0 25px;
+	font-family: tangerine, "Trebuchet MS", Helvetica, sans-serif;
+	text-align:left;
+	font-size:8em;
+	color:#264060;
+}
+#header h2{
+	width:920px;
+	float:left;
+	text-align:right;
+	font-size:1.5em;
+	margin-right:40px;
+	}
+/*** Content Wrapper ***/
+#contentWrapper{
+	width:960px;
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:auto;
+	}
+/*** Nav ***/
+#toprule {
+	border-style: double;
+	width:850px;
+	margin-left:70px;
+	color: #653716;
+	border-width: 5px;
+}
+#nav hr{
+	width:850px;
+	margin-left:70px;
+	color: #653716;
+	}
+#nav ul{
+	width:850px;
+	float:left;
+	margin-left:70px;
+	margin-right:auto;	
+	}
+#nav li{
+	width:165px;
+	float:left;
+	list-style-type:none;
+	text-align: center;
+	}	
+#nav a{
+	color:#666;
+	font-family: Georgia, serif;
+	font-size:1.2em;
+	}
+#nav a:hover{
+	color:#264060;}
+	
+/*** Content ***/
+#content{
+	width:950px;
+	float:left;
+	height:100%;
+	margin-left:40px;
+	padding:5px 0px 10px 0px;
+	}
+#content ul a{
+	color:#264060;
+	}
+#content h3{
+	text-align:center;
+	font-variant: small-caps;
+	font-weight:bold;
+	font-size:2em;
+	padding: 20px 0 10px 0;
+	}
+#content h4{
+	text-align:center;
+	font-size:.95em;
+	font-style:italic;
+	font-weight:bold;
+	padding-bottom:10px;
+	}
+	
+#content h5{
+	text-align:left;
+	font-size:1.3em;
+	font-variant:small-caps;
+	font-weight:bold;
+	padding: 10px 0 10px 100px;
+	}
+#content p{
+	width:700px;
+	text-align: left;
+	line-height: 1.5em;
+	font-size: 1em;
+	font-family: Verdana, Arial, sans-serif;
+	padding-left:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+#content .first{
+	font-size:1.5em;
+	}
+#content br{
+	clear: both;
+}
+#content ul{
+	list-style-position: outside;
+	list-style-type: square;
+	font-size: 1em;
+	font-family: "Lucida Grande", Verdana, Arial, sans-serif;
+	padding-left:150px;
+	padding-bottom:10px;
+	}
+#content strong{
+	font-variant: small-caps;
+	font-size:1.2em;
+}
+/*** Images ***/
+	
+#content .image {
+		width: 400px;
+		background-color:#cccde2;
+		margin: 10px 25px 0 225px;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+	}
+#content .image1 {
+		width: 150px;
+		float:left;
+		background-color:#cccde2;
+		margin: 10px 25px 0 100px;
+		padding: 20px;
+		text-align: center;
+			}
+
+#content .image2 {
+		width: 400px;
+		float:right;
+		background-color:#cccde2;
+		margin: 10px 100px 0 25px;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+	}
+	
+#content .image3 {
+		width: 400px;
+		float:left;
+		background-color:#cccde2;
+		margin: 10px 25px 0 100px;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+	}
+#content .image4 {
+		width: 400px;
+		float:left;
+		background-color:#cccde2;
+		margin: 10px 0 0 10px;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+	}
+#content .image5 {
+		width: 300px;
+		background-color:#cccde2;
+		margin: 10px 25px 0 350px;
+		padding: 20px 20px 20px 20px;
+		text-align: center;
+		}	
+	
+
+#content .image p{
+	width:400px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+	}
+#content .image1 p{
+	width:150px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+			}
+
+#content .image2 p{
+	width:400px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+	}		
+#content .image3 p{
+	width:400px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+	}		
+#content .image4 p{
+	width:400px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+	}		
+#content .image5 p {
+	width:300px;
+	padding:20px 0 0 0;
+	font-family:Georgia,serif;
+	font-size: .9em;
+	text-align: center;
+	}		
+	}
+	
+
+#content a{
+	text-decoration:none;
+	color:#0E3F39;
+	}
+#content a:hover{
+	text-decoration:underline;
+	}
+#content a:active{
+	text-decoration:underline;
+	}
+	
+	
+
+/*** Footer ***/
+#footer {
+	margin-bottom: 50px;
+}
+
+#footer hr{
+	width: 860px;
+	float:left;
+	margin-left:70px;
+	color:#653716;
+
+	}
+#contact{
+	width:400px;
+	float:left;
+	padding: 10px 10px 60px 140px;
+	}
+#contact a{
+	text-decoration:none;
+	color:#264060;
+	padding:1px;
+	}
+#contact a:hover{
+	text-decoration:underline;
+	}
+#contact a:active{
+	text-decoration:underline;
+	}
+#contact ul{
+	list-style-type:none;
+	}
+#details {
+	width:300px;
+	float:left;
+	padding-right: 100px
+	}
+#details p{
+	text-align:right;
+}
+#details a{
+	text-decoration:none;
+	color:#264060;
+	padding:1px;
+	}
+#details a:hover{
+	text-decoration:underline;
+	}
+#details a:active{
+	text-decoration:underline;
+	}
+
+		
